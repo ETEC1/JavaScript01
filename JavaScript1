@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title>Module 01 Course Project</title>
+<body>
+
+<script> language = "javascript">
+document.write("<h1><b>MESSAGE WILL BE DISPLAYED AFTER 5 SECONDS</b></h1>");
+</script>
+
+<br>
+<br>
+
+<button onclick="myFunction()">CLICK FOR MESSAGE</button>
+<script>
+
+var myVar;
+function myFunction() {
+  myVar = setTimeout(alertFunc, 5000);
+}
+function alertFunc() {
+  alert("Hello World!");
+}
+</script>
+</body>
+</html>
